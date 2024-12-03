@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+python-steam-api = "*"
+requests = "*"
+python-dotenv = "*"
+ruff = "0.0.291"
+glom = "*"
+"discord.py" = "*"
+psycopg2-binary = "*"
+psycopg = "*"
+psycopg-pool = "*"
+pydantic = "*"
+pydantic-settings = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
